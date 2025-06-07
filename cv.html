@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>About Ranga</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #ebe4e7; /* Changed background color */
+        }
+        h1, h2 {
+            color: #141413; /* Changed heading color */
+        }
+        ul, ol {
+            margin-left: 20px;
+        }
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .project-card {
+            background-color: #f0f4ff;
+            padding: 15px;
+            border-left: 6px solid #2a73cc;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.05);
+            flex: 1 1 calc(50% - 20px);
+            box-sizing: border-box;
+        }
+        .project-card h3 {
+            margin-top: 0;
+        }
+        .project-image {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .project-links {
+            margin-top: 10px;
+        }
+        .project-links .btn {
+            margin-right: 10px;
+            text-decoration: none;
+            color: white;
+            background-color: #18191a;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        @media (max-width: 600px) {
+            .project-card {
+                flex: 1 1 100%;
+            }
+        }
+        .view-all-projects {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Hello! I am Ranga</h1>
+    <p>I am a diploma student in Computer Science Engineering at TKR College.</p>
+
+    <h2>Languages I know</h2>
+    <ul>
+        <li>C</li>
+        <li>C++</li>
+        <li>Java</li>
+        <li>Python</li>
+    </ul>
+
+    <h2>My Hobbies</h2>
+    <ol>
+        <li>I like coding, learning new things, and exploring tech</li>
+        <li>Reading books</li>
+        <li>Playing cricket</li>
+        <li>Watching movies</li>
+    </ol>
+    
+    <hr>
+
+    <h2>My Projects</h2>
+    <div class="projects">
+        <div class="project-card">
+            <img src="images/student-info-app.png" alt="Student Info App Screenshot" class="project-image">
+            <h3>📋 Student Info App</h3>
+            <p>Built using Python and MySQL. It lets users add, update, delete, and view student records.</p>
+            <div class="project-links">
+                <a href="https://github.com/ranganaik172/student-info-app" target="_blank" class="btn">🔗 GitHub</a>
+                <a href="#" class="btn">🌐 Live Demo</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <h3>🖥️ Java Console ATM</h3>
+            <p>A mini ATM system built with Java. Supports pin login, balance check, and cash withdrawal.</p>
+            <div class="project-links">
+                <a href="https://github.com/ranganaik172/java-atm" target="_blank" class="btn">🔗 GitHub</a>
+                <a href="#" class="btn">🌐 Live Demo</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <h3>🌐 My First HTML Page</h3>
+            <p>Basic webpage created with HTML tags, headings, links, images, and formatting elements.</p>
+            <div class="project-links">
+                <a href="https://github.com/ranganaik172/ranga-portfolio" target="_blank" class="btn">🔗 GitHub</a>
+                <a href="https://ranganaik172.github.io/ranga-portfolio/" target="_blank" class="btn">🌐 Live Demo</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="view-all-projects">
+        <a href="#" class="btn">View All Projects</a>
+    </div>
+
+    <hr>
+    <p>This is my first HTML page in VS Code.</p>
+</body>
+
+</html>
